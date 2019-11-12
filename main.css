@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(134, 197, 218);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 48px;
+    color: darkblue;
+    min-width: 330px;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 0px;
+    padding: 10px;
+    text-shadow: 2px 2px grey;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px black;
+    word-spacing: 2; 
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    margin-left: auto;
+    max-width: 400px;
+    min-width: 300px;
+    padding-left: 75px;
+}
+
+list {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+Headline { /*About Me, Languages...*/
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 10px;
+    min-width: 175px;
+    margin-left: 20%;
+    padding-left: 0px;
+}
+
+
+HeadlineInvolvement { /*About Me, Languages...*/
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 10px;
+    min-width: 205px;
+    margin-left: 20%;
+    padding-left: 0px;
+}
+
+headingLine {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-right: 20%;
+    border-color: darkblue;
+}
+
+hr {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px;
+    background-color: darkblue;
+    border: 0;
+    border-radius: 5px;
+    animation-name: hrAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    margin-right: auto;
+    padding-right: 75px;
+    display: block;
+}
+
+.img1 {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.line {
+    display: flex;
+    width: 100%;
+}
+
+@keyframes hrAnimation {
+    0%   {background-color: white;
+          width: 0%;}
+    25% {}
+    50% {}
+    100% {background-color: darkblue;}
+}
+
+button {
+    background-color: White;
+    border-radius: 12px;
+    border: 2px solid darkblue;
+    color: darkblue;
+    padding: 15px 32px;
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.fadeContent {
+    animation-name: contentFade;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes contentFade {
+    0%   {opacity: 0%;}
+    50%  {opacity: 0%;}
+    100% {opacity: 100%;}
+}
