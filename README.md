@@ -1,2 +1,3 @@
 # My-Website
-Personal website of David Burns
+My personal website.
+Learn about my skills, projects, and education.
