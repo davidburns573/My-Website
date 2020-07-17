@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(134, 197, 218);
+    background-color: rgb(78, 157, 184);
 }
 
 h1 {
@@ -26,29 +26,6 @@ h2 {
     word-spacing: 2; 
 }
 
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    margin-left: auto;
-    max-width: 400px;
-    min-width: 300px;
-    padding-left: 75px;
-}
-
-list {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 650px;
-    min-width: 300px;
-    margin-bottom: 20px;
-}
-
 Headline { /*About Me, Languages...*/
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -57,32 +34,6 @@ Headline { /*About Me, Languages...*/
     color: darkblue;
     margin-bottom: 10px;
     min-width: 175px;
-}
-
-
-HeadlineInvolvement { /*About Me, Languages...*/
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: darkblue;
-    margin-bottom: 10px;
-    min-width: 205px;
-    margin-left: 20%;
-    padding-left: 0px;
-}
-
-headingLine {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 5px;
-    background-color: white;
-    border: 0;
-    border-radius: 5px;
-    margin-top: 12px;
-    margin-right: 20%;
-    border-color: darkblue;
 }
 
 hr {
@@ -100,23 +51,6 @@ hr {
     margin-bottom: auto;
 }
 
-img {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    margin-right: auto;
-    padding-right: 75px;
-    display: block;
-}
-
-.img1 {
-    width: 400px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-    display: block;
-}
-
 .line {
     display: flex;
     width: 100%;
@@ -129,30 +63,7 @@ img {
     50% {}
     100% {background-color: darkblue;}
 }
-
-button {
-    background-color: White;
-    border-radius: 12px;
-    border: 2px solid darkblue;
-    color: darkblue;
-    padding: 15px 32px;
-    margin-left: 10px;
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
   
-button:hover {
-    background-color: darkblue;
-    color: #ffffff;
-}
-
 .center {
     display: flex;
     justify-content: center;
