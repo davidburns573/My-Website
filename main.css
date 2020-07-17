@@ -52,13 +52,11 @@ list {
 Headline { /*About Me, Languages...*/
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     color: darkblue;
     margin-bottom: 10px;
     min-width: 175px;
-    margin-left: 20%;
-    padding-left: 0px;
 }
 
 
