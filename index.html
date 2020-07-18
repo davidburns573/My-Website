@@ -3,16 +3,23 @@
   <head>
     <title>David Burns</title>
     <link rel = "stylesheet" href = "main.css"> </link>
+    <script src="https://kit.fontawesome.com/a3a1757dd9.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
   </head>
   <body onload="typeWriter()">
     <div class="topnav">
       <h1>David Burns</h1>
-      <a class="active" href="#home">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+      <a class="active" href="#home">About</a>
     </div>
-    <div>
+    <div class="botnav">
+      <i class='fas fa-envelope' onclick="window.location.href='mailto:dburns37@gatech.edu'" style='font-size:48px;'></i>
+      <i class='fas fa-file' style='font-size:48px;'></i>
+      <i class='fab fa-github' style='font-size:48px;'></i>
+      <i class='fab fa-linkedin' style='font-size:48px;'></i>
+    </div>
+    <div class="main">
       <h2 id="text"></h2>
     </div>
     <div class="fadeContent"></div>

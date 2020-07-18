@@ -13,8 +13,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: xxx-large;
     color: darkblue;
-    text-shadow: 2px 2px grey;
     display: inline;
+    padding-left: 10px;
 }
 
 .topnav {
@@ -22,6 +22,11 @@ h1 {
     padding: 10px;
     background-image: linear-gradient(45deg, #9b58f3, #747ffc, #7b58da);
     border-radius: 12px;
+    top: 0;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    margin: 10px;
 }
 
 .topnav a {
@@ -29,10 +34,11 @@ h1 {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
+    margin: 5px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 12px;
-  }
+}
   
 .topnav a:hover {
     background-color: #ddd;
@@ -42,7 +48,11 @@ h1 {
 .topnav a.active {
     background-color: darkblue;
     color: white;
-  }
+}
+
+.main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
@@ -71,4 +81,26 @@ h2 {
     0%   {opacity: 0%;}
     50%  {opacity: 0%;}
     100% {opacity: 100%;}
+}
+
+.botnav {
+    overflow: hidden;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.botnav i {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.botnav i:hover {
+    background-color: teal;
 }
