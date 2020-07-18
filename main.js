@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Hello, nice to meet you!';
+var txt = 'Nice to meet you!';
 var speed = 50;
 
 function typeWriter() {

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(-45deg, #ad7cee, #979ff3, #927cd1);
+    background-image: linear-gradient(-45deg, #dcc8f5, #c2c7fb, #bbade0);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -52,6 +52,7 @@ h1 {
 
 .main {
     margin-top: 100px; /* Add a top margin to avoid content overlay */
+    margin-bottom: 75px;
 }
 
 h2 {
@@ -64,16 +65,47 @@ h2 {
     text-shadow: 1px 1px black;
     word-spacing: 2; 
 }
-  
-.center {
+
+.sectionGroup {
     display: flex;
     justify-content: center;
+}
+
+.sectionHeader {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: xx-large;
+    color: darkblue;
+    word-spacing: 2;
+}
+
+.sectionLine {
+    width: 100%;
+    margin: auto;
+    height: 5px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.section {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: x-large;
+    color: darkblue;
+    margin-bottom: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    word-spacing: 2;
+    max-width: 900px;
+    min-width: 250px;
 }
 
 .fadeContent {
     animation-name: contentFade;
     animation-delay: 0s;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-iteration-count: 1;
 }
 
@@ -105,4 +137,15 @@ h2 {
 .botnav i:hover{
     color: white;
     cursor: pointer;
+}
+
+.techSeal {
+    height: 100%;
+    width: auto;
+}
+
+.lc3Image {
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
 }

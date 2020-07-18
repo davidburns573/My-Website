@@ -26,9 +26,45 @@
     </div>
     <div class="main">
       <h2 id="text"></h2>
-    </div>
-    <div class="fadeContent"></div>
-      <div class = "center">
+      <div class="fadeContent">
+        <div>
+          <div class="sectionGroup" style="margin-left:20%;margin-right:20%;">
+            <h3 class="sectionHeader">About</h3>
+            <hr class="sectionLine"></hr>
+          </div>
+          <div class="sectionGroup" style="flex-wrap:wrap;margin-left:5%;margin-right:5%;">
+            <p class="section">Hi, I'm David, a computer science major at Georgia Tech. 
+              For the past couple years, I have been coding non-stop and would love to 
+              share my projects and exeperiences with you! My interests vary from operating 
+              systems to app development. I'll be graduating from Tech with threads in systems 
+              architecture and intelligence in 2022. I appreciate the digital visit and 
+              would love to learn more about you! Feel free to reach out using the icons below.
+            </p>
+            <img src="gt.png" alt="Georgia Tech seal" class="techSeal"/>
+          </div>
+          <div class="sectionGroup" style="margin-left:20%;margin-right:20%;">
+            <h3 class="sectionHeader">Projects</h3>
+            <hr class="sectionLine"></hr>
+          </div>
+          <div class="sectionGroup" style="flex-wrap:wrap;margin-left:5%;margin-right:5%;">
+            <div style="margin-right:30px;margin-left:30px;">
+              <h4 class="section" style="text-align:center;">LC-3 Assembler</h4>
+              <img src="LC3Instructions.png" alt="LC-3 instruction set" class="lc3Image"/>
+            </div>
+            <p class="section" style="max-width:800px;">Inspired by my favorite CS class, Computer Organization and Programming, 
+              I created an assembler for the 
+              <a href="https://en.wikipedia.org/wiki/Little_Computer_3" target="_blank">LC-3</a>. 
+              Written entirely in C, this program takes in a file with LC-3 assembly code, parses each line
+              for valid syntax, and delivers 16-bit machine executable code. The assembler follows a 
+              two pass structure. The first pass parses pseudo-operations and labels, while the second 
+              converts assembly in machine code. To maximize efficiency, the second pass precalculates
+              the sums of the keywords, similar to the Rabin-Karp pattern matching algorithm. The code 
+              is organized to minimize repition, while still allowing for readability. If you'd like to
+              see more, click the link 
+              <a href="https://github.com/davidburns573/LC-3-Assembler" target="_blank">here</a>.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
