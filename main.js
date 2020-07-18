@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'A Computer Scientist';
-var speed = 20;
+var txt = 'Hello, nice to meet you!';
+var speed = 50;
 
 function typeWriter() {
     if (i < txt.length) {

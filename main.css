@@ -1,67 +1,58 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    background-color: rgb(78, 157, 184);
+    background-image: linear-gradient(-45deg, #ad7cee, #979ff3, #927cd1);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 48px;
+    font-size: xxx-large;
     color: darkblue;
-    min-width: 330px;
-    margin-top: 0;
-    margin-left: 0;
-    margin: 0px;
-    padding: 10px;
     text-shadow: 2px 2px grey;
+    display: inline;
 }
+
+.topnav {
+    overflow: hidden;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #9b58f3, #747ffc, #7b58da);
+    border-radius: 12px;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 12px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: darkblue;
+    color: white;
+  }
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 22px;
+    font-size: x-large;
     font-style: italic;
     color: white;
     margin-bottom: 20px;
     text-shadow: 1px 1px black;
     word-spacing: 2; 
-}
-
-Headline { /*About Me, Languages...*/
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: darkblue;
-    margin-bottom: 10px;
-    min-width: 175px;
-}
-
-hr {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 10px;
-    background-color: darkblue;
-    border: 0;
-    border-radius: 5px;
-    animation-name: hrAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.line {
-    display: flex;
-    width: 100%;
-}
-
-@keyframes hrAnimation {
-    0%   {background-color: white;
-          width: 0%;}
-    25% {}
-    50% {}
-    100% {background-color: darkblue;}
 }
   
 .center {
