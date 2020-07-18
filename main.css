@@ -99,8 +99,10 @@ h2 {
     margin: 5px;
     padding: 10px;
     border-radius: 100%;
+    display: inline-block;
 }
 
-.botnav i:hover {
-    background-color: teal;
+.botnav i:hover{
+    color: white;
+    cursor: pointer;
 }

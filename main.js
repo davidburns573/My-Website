@@ -9,3 +9,7 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+
+function mailClick() {
+    window.location.href='mailto:dburns37@gatech.edu';
+}
