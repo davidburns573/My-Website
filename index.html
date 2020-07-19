@@ -49,20 +49,38 @@
           <div class="sectionGroup" style="flex-wrap:wrap;margin-left:5%;margin-right:5%;">
             <div style="margin-right:30px;margin-left:30px;">
               <h4 class="section" style="text-align:center;">LC-3 Assembler</h4>
-              <img src="LC3Instructions.png" alt="LC-3 instruction set" class="lc3Image"/>
+              <img src="LC3Instructions.png" alt="LC-3 instruction set" class="lc3Image" 
+              onclick="window.open('https://github.com/davidburns573/LC-3-Assembler')"/>
             </div>
-            <p class="section" style="max-width:800px;">Inspired by my favorite CS class, Computer Organization and Programming, 
+            <p class="section" style="max-width:800px;"><small>Inspired by my favorite CS class, Computer Organization and Programming, 
               I created an assembler for the 
               <a href="https://en.wikipedia.org/wiki/Little_Computer_3" target="_blank">LC-3</a>. 
               Written entirely in C, this program takes in a file with LC-3 assembly code, parses each line
               for valid syntax, and delivers 16-bit machine executable code. The assembler follows a 
               two pass structure. The first pass parses pseudo-operations and labels, while the second 
-              converts assembly in machine code. To maximize efficiency, the second pass precalculates
+              converts assembly into machine code. To maximize efficiency, the second pass precalculates
               the sums of the keywords, similar to the Rabin-Karp pattern matching algorithm. The code 
-              is organized to minimize repition, while still allowing for readability. If you'd like to
+              is organized to minimize repition, while still allowing for readability. I am now a Teaching Assistant
+              for CS 2110 and plan to use this program as an example for my students. If you'd like to
               see more, click the link 
-              <a href="https://github.com/davidburns573/LC-3-Assembler" target="_blank">here</a>.
+              <a href="https://github.com/davidburns573/LC-3-Assembler" target="_blank">here</a>.</small>
             </p>
+          </div>
+          <div class="sectionGroup" style="flex-wrap:wrap-reverse;margin-left:5%;margin-right:5%;">
+            <p class="section" style="max-width:800px;"><small>Written by my colleague, Charles Jenkins, 
+              and I, Activity Tracker is an android application designed to intuitively keep track of 
+              the amount of time a user spends on certain activities. This project introduced me to 
+              the programming language Kotlin and taught me the basics of databases with SQLite. We are 
+              still working to improve the design layout when viewing the statistics of an Activity. If 
+              you are interested to learn more about this project, click the link 
+              <a href="https://github.com/davidburns573/ActivityTracker" target="_blank">here</a>.
+            </small>
+            </p>
+            <div style="margin-right:30px;margin-left:30px;">
+              <h4 class="section" style="text-align:center;">Activity Tracker</h4>
+              <img src="activitytracker.png" alt="LC-3 instruction set" class="actTrackerImg" 
+              onclick="window.open('https://github.com/davidburns573/ActivityTracker')"/>
+            </div>
           </div>
         </div>
       </div>
