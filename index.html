@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
   <head>
     <title>David Burns</title>
     <link rel = "stylesheet" href = "main.css"> </link>
@@ -12,7 +12,7 @@
       <a href="#contact">Contact</a>
       <a href="#involvement">Involvement</a>
       <a href="#projects">Projects</a>
-      <a class="active" href="#home">About</a>
+      <a class="active" href="#about">About</a>
     </div>
     <div class="botnav">
       <i id ="mail_button" class="fas fa-envelope"
@@ -28,6 +28,7 @@
       <h2 id="text"></h2>
       <div class="fadeContent">
         <div>
+          <a id="about" class="anchor"></a>
           <div class="sectionGroup" style="margin-left:20%;margin-right:20%;">
             <h3 class="sectionHeader">About</h3>
             <hr class="sectionLine"></hr>
@@ -42,13 +43,14 @@
             </p>
             <img src="gt.png" alt="Georgia Tech seal" class="techSeal"/>
           </div>
+          <a id="projects" class="anchor"></a>
           <div class="sectionGroup" style="margin-left:20%;margin-right:20%;">
             <h3 class="sectionHeader">Projects</h3>
             <hr class="sectionLine"></hr>
           </div>
+          <h4 class="projectHeader" style="margin-top: 0;">LC-3 Assembler</h4>
           <div class="sectionGroup" style="flex-wrap:wrap;margin-left:5%;margin-right:5%;">
             <div style="margin-right:30px;margin-left:30px;">
-              <h4 class="section" style="text-align:center;">LC-3 Assembler</h4>
               <img src="LC3Instructions.png" alt="LC-3 instruction set" class="lc3Image" 
               onclick="window.open('https://github.com/davidburns573/LC-3-Assembler')"/>
             </div>
@@ -66,9 +68,10 @@
               <a href="https://github.com/davidburns573/LC-3-Assembler" target="_blank">here</a>.</small>
             </p>
           </div>
+          <h4 class="projectHeader">Activity Tracker</h4>
           <div class="sectionGroup" style="flex-wrap:wrap-reverse;margin-left:5%;margin-right:5%;">
-            <p class="section" style="max-width:800px;"><small>Written by my colleague, Charles Jenkins, 
-              and I, Activity Tracker is an android application designed to intuitively keep track of 
+            <p class="section" style="max-width:800px;"><small>Written with my colleague, Charles Jenkins, 
+              Activity Tracker is an android application designed to intuitively keep track of 
               the amount of time a user spends on certain activities. This project introduced me to 
               the programming language Kotlin and taught me the basics of databases with SQLite. We are 
               still working to improve the design layout when viewing the statistics of an Activity. If 
@@ -77,10 +80,29 @@
             </small>
             </p>
             <div style="margin-right:30px;margin-left:30px;">
-              <h4 class="section" style="text-align:center;">Activity Tracker</h4>
               <img src="activitytracker.png" alt="LC-3 instruction set" class="actTrackerImg" 
               onclick="window.open('https://github.com/davidburns573/ActivityTracker')"/>
             </div>
+          </div>
+          <h4 class="projectHeader">Matrix Multiplier</h4>
+          <div class="sectionGroup" style="flex-wrap:wrap;margin-left:5%;margin-right:5%;">
+            <div style="margin-right:30px;margin-left:30px;">
+              <img src="matrix.PNG" alt="LC-3 instruction set" class="matrixImg" 
+              onclick="window.open('https://github.com/davidburns573/LC-3-Assembler')"/>
+            </div>
+            <p class="section" style="max-width:800px;"><small>This android application was inspired by my Linear Algebra class 
+              and allows the user to multiply matricies together. Coded in java, this was the first android app I have created.
+              It was an excellent learning experience in that I now know I prefer backend engineering over frontend. 
+              This app allows the user to multiply many matrices together of varying sizes (Up to 99x99). The application 
+              architecture follows a fragmented design with a simple navigator fragment to swipe through the different menus. 
+              If you'd like to see more, click the link 
+              <a href="https://github.com/davidburns573/Matrix-Multiplier" target="_blank">here</a>.</small>
+            </p>
+          </div>
+          <a id="involvement" class="anchor"></a>
+          <div id="involvement" class="sectionGroup" style="margin-left:20%;margin-right:20%;">
+            <h3 class="sectionHeader">Involvement</h3>
+            <hr class="sectionLine"></hr>
           </div>
         </div>
       </div>
